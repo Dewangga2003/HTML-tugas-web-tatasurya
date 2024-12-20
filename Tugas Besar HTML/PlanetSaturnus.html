@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Saturnus</title>
+    <link rel="stylesheet" href="konten.css">
+</head>
+<body>
+    <div class="sidebar-container">
+        <button class="toggle-btn" id="toggleSidebar">☰</button>
+        <div class="sidebar" id="sidebar">
+            <h2>Menu</h2>
+            <a href="index.html">Home</a>
+            <a href="Matahari.html">Matahari</a>
+            <a href="PlanetMerkurius.html">Planet Merkurius</a>
+            <a href="PlanetVenus.html">Planet Venus</a>
+            <a href="PlanetBumi.html">Planet Bumi</a>
+            <a href="PlanetMars.html">Planet Mars</a>
+            <a href="PlanetJupiter.html">Planet Jupiter</a>
+            <a href="PlanetSaturnus.html">Planet Saturnus</a>
+            <a href="PlanetUranus.html">Planet Uranus</a>
+            <a href="PlanetNeptunus.html">Planet Neptunus</a>
+            <a href="PlanetObjekLuar.html">Objek Luar</a>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Planet Saturnus</h1>
+        <div class="section">
+            <p>
+                Saturnus adalah planet keenam dari Matahari dan merupakan planet terbesar kedua di tata surya setelah Jupiter. Saturnus dikenal karena sistem cincinnya
+                yang spektakuler, yang terdiri dari miliaran partikel es, debu, dan material berbatu. Diameter Saturnus sekitar 116.460 kilometer, dan seperti Jupiter,
+                Saturnus adalah planet gas raksasa yang sebagian besar terdiri dari hidrogen dan helium. Saturnus memiliki lebih dari 80 satelit alami, termasuk Titan,
+                satelit terbesar yang bahkan lebih besar dari planet Merkurius. Titan memiliki atmosfer tebal dan lautan metana cair, menjadikannya salah satu objek paling
+                menarik dalam tata surya untuk penelitian astrobiologi.
+            </p>
+            <img src="Gambar/Saturnus1.png" alt="Gambar Planet Saturnus">
+        </div><br>
+        <div class="section">
+            <img src="Gambar/Saturnus2.png" alt="Gambar Cincin Saturnus">
+            <p>
+                Fakta menarik tentang Saturnus adalah bahwa planet ini memiliki densitas yang sangat rendah, bahkan lebih rendah dari air. Jika ada lautan besar yang
+                cukup besar, Saturnus akan dapat mengapung. Saturnus juga memiliki angin yang sangat kuat, dengan kecepatan mencapai 1.800 kilometer per jam di atmosfernya.
+                Misi luar angkasa seperti Cassini-Huygens telah memberikan banyak data penting tentang Saturnus, termasuk rincian struktur cincinnya dan eksplorasi Titan.
+                Saturnus tetap menjadi salah satu planet yang paling menakjubkan dan penuh misteri dalam tata surya.
+            </p>
+        </div><br>
+        <p>Untuk informasi lebih lengkap tentang saturnus silahkan kunjungi <a href="https://id.wikipedia.org/wiki/Saturnus">Wikipedia</a></p><br>
+        <div class="section video-section">
+            <video controls>
+                <source src="Video/Saturnus.mp4" type="video/mp4">
+                Browser Anda tidak mendukung tag video.
+            </video>
+        </div>
+    </div>
+    <script>
+        const toggleBtn = document.getElementById('toggleSidebar');
+        const sidebar = document.getElementById('sidebar');
+
+        toggleBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>

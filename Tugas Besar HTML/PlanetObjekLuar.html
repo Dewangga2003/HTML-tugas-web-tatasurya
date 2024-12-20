@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objek Luar</title>
+    <link rel="stylesheet" href="konten.css">
+</head>
+<body>
+    <div class="sidebar-container">
+        <button class="toggle-btn" id="toggleSidebar">☰</button>
+        <div class="sidebar" id="sidebar">
+            <h2>Menu</h2>
+            <a href="index.html">Home</a>
+            <a href="Matahari.html">Matahari</a>
+            <a href="PlanetMerkurius.html">Planet Merkurius</a>
+            <a href="PlanetVenus.html">Planet Venus</a>
+            <a href="PlanetBumi.html">Planet Bumi</a>
+            <a href="PlanetMars.html">Planet Mars</a>
+            <a href="PlanetJupiter.html">Planet Jupiter</a>
+            <a href="PlanetSaturnus.html">Planet Saturnus</a>
+            <a href="PlanetUranus.html">Planet Uranus</a>
+            <a href="PlanetNeptunus.html">Planet Neptunus</a>
+            <a href="PlanetObjekLuar.html">Objek Luar</a>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Objek Luar</h1>
+        <div class="section">
+            <p>
+                Asteroid adalah objek kecil berbatu yang mengorbit Matahari, sebagian besar ditemukan di Sabuk Asteroid antara Mars dan Jupiter. Ukurannya
+                bervariasi dari beberapa meter hingga ratusan kilometer. Asteroid adalah sisa-sisa pembentukan tata surya yang tidak cukup besar untuk menjadi
+                planet. Beberapa asteroid terbesar, seperti Ceres, juga diklasifikasikan sebagai planet kerdil. Asteroid memiliki berbagai bentuk dan komposisi
+                termasuk berbatu, logam, atau campuran keduanya. Mereka memainkan peran penting dalam studi sejarah awal tata surya. Selain itu, beberapa asteroid
+                melintasi orbit Bumi dan dikenal sebagai Near-Earth Objects (NEOs), yang dapat menjadi ancaman jika memasuki atmosfer Bumi.
+            </p>
+            <img src="Gambar/Asteroid.jpg" alt="Gambar Asteroid">
+        </div><br>
+        <div class="section">
+            <img src="Gambar/DwarfPlanet.jpg" alt="Gambar Planet Kerdil">
+            <p>
+                Planet kerdil adalah objek yang mengorbit Matahari dan memiliki massa cukup untuk berbentuk bulat karena gravitasi sendiri, tetapi belum
+                membersihkan orbitnya dari objek lain. Contoh terkenal adalah Pluto, yang dulunya diklasifikasikan sebagai planet kesembilan sebelum diubah
+                statusnya pada tahun 2006 oleh International Astronomical Union (IAU). Contoh planet kerdil lainnya termasuk Eris, Haumea, dan Makemake. Planet
+                kerdil biasanya ditemukan di Sabuk Kuiper, wilayah di luar Neptunus yang kaya akan objek es dan batu. Studi tentang planet kerdil memberikan
+                wawasan tentang area terluar tata surya dan evolusi objek kecil di sekitarnya.
+            </p>
+        </div><br>
+        <div class="section">
+            <p>
+                Komet adalah objek es yang mengorbit Matahari dan dikenal karena ekornya yang bercahaya saat mendekati Matahari. Komet terdiri dari 
+                inti es, debu, dan gas yang mulai menguap membentuk koma dan ekor ketika terkena panas Matahari. Ekor komet selalu menjauh dari Matahari
+                karena tekanan radiasi dan angin matahari. Komet berasal dari dua wilayah utama: Sabuk Kuiper dan Awan Oort. Contoh terkenal adalah Komet
+                Halley, yang muncul setiap sekitar 76 tahun. Studi tentang komet memberikan wawasan tentang bahan-bahan awal pembentukan tata surya, karena
+                mereka terdiri dari material yang tidak berubah sejak zaman pembentukan tata surya.
+            </p>
+            <img src="Gambar/Comet2.jpg" alt="Gambar Komet">
+        </div><br>
+
+        <div class="section video-section">
+            <video controls>
+                <source src="Video/Bumi2.mp4" type="video/mp4">
+                Browser Anda tidak mendukung tag video.
+            </video>
+        </div>
+    </div>
+    <script>
+        const toggleBtn = document.getElementById('toggleSidebar');
+        const sidebar = document.getElementById('sidebar');
+
+        toggleBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>

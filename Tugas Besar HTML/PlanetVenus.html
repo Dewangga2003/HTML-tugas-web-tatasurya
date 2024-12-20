@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Venus</title>
+    <link rel="stylesheet" href="konten.css">
+</head>
+<body>
+    <div class="sidebar-container">
+        <button class="toggle-btn" id="toggleSidebar">☰</button>
+        <div class="sidebar" id="sidebar">
+            <h2>Menu</h2>
+            <a href="index.html">Home</a>
+            <a href="Matahari.html">Matahari</a>
+            <a href="PlanetMerkurius.html">Planet Merkurius</a>
+            <a href="PlanetVenus.html">Planet Venus</a>
+            <a href="PlanetBumi.html">Planet Bumi</a>
+            <a href="PlanetMars.html">Planet Mars</a>
+            <a href="PlanetJupiter.html">Planet Jupiter</a>
+            <a href="PlanetSaturnus.html">Planet Saturnus</a>
+            <a href="PlanetUranus.html">Planet Uranus</a>
+            <a href="PlanetNeptunus.html">Planet Neptunus</a>
+            <a href="PlanetObjekLuar.html">Objek Luar</a>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Planet Venus</h1>
+        <div class="section">
+            <p>
+                Venus adalah planet kedua dari Matahari dan dikenal sebagai "bintang fajar" atau "bintang senja" karena cahayanya yang sangat terang di langit
+                Bumi. Dengan diameter sekitar 12.104 kilometer, Venus hampir seukuran dengan Bumi, sehingga sering disebut sebagai "saudara kembar" Bumi. Namun
+                kondisi di Venus sangat berbeda. Planet ini memiliki atmosfer yang sangat tebal dan sebagian besar terdiri dari karbon dioksida, dengan awan asam
+                sulfat yang menyelubungi seluruh planet. Tekanan atmosfer di permukaan Venus sekitar 92 kali lebih besar dibandingkan Bumi, cukup untuk menghancurkan
+                sebagian besar pesawat luar angkasa. Venus memiliki suhu permukaan yang sangat panas, mencapai sekitar 465°C, menjadikannya planet terpanas di tata
+                surya, bahkan lebih panas daripada Merkurius, meskipun Venus lebih jauh dari Matahari. Suhu ekstrem ini disebabkan oleh efek rumah kaca yang tidak
+                terkendali akibat atmosfer karbon dioksida yang tebal.
+            </p>
+            <img src="Gambar/Venus1.jpg" alt="Gambar Planet Venus">
+        </div><br>
+        <div class="section">
+            <img src="Gambar/Venus2.jpg" alt="Gambar Permukaan Venus">
+            <p>
+                Fakta unik tentang Venus adalah bahwa planet ini berotasi dalam arah yang berlawanan dibandingkan sebagian besar planet lain di tata surya, sebuah
+                fenomena yang disebut rotasi retrograde. Akibatnya, di Venus, Matahari terbit dari barat dan terbenam di timur. Selain itu, satu hari di Venus
+                (243 hari Bumi) lebih lama daripada satu tahun Venus (225 hari Bumi). Hal ini menjadikan rotasi Venus sebagai yang paling lambat di antara semua
+                planet. Venus juga memiliki lanskap yang menarik, dengan gunung berapi aktif, dataran luas, dan lembah yang dalam. Salah satu gunung tertinggi di
+                Venus adalah Maxwell Montes, yang memiliki ketinggian sekitar 11 kilometer, lebih tinggi daripada Gunung Everest di Bumi.
+            </p>
+        </div><br>
+        <p>Untuk informasi lebih lengkap tentang venus silahkan kunjungi <a href="https://id.wikipedia.org/wiki/Venus">Wikipedia</a></p><br>
+        <div class="section video-section">
+            <video controls>
+                <source src="Video/Neptunus_Venus.mp4" type="video/mp4">
+                Browser Anda tidak mendukung tag video.
+            </video>
+        </div>
+    </div>
+    <script>
+        const toggleBtn = document.getElementById('toggleSidebar');
+        const sidebar = document.getElementById('sidebar');
+
+        toggleBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>

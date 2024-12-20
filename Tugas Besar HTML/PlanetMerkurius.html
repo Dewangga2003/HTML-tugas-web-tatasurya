@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Merkurius</title>
+    <link rel="stylesheet" href="konten.css">
+</head>
+<body>
+    <div class="sidebar-container">
+        <button class="toggle-btn" id="toggleSidebar">☰</button>
+        <div class="sidebar" id="sidebar">
+            <h2>Menu</h2>
+            <a href="index.html">Home</a>
+            <a href="Matahari.html">Matahari</a>
+            <a href="PlanetMerkurius.html">Planet Merkurius</a>
+            <a href="PlanetVenus.html">Planet Venus</a>
+            <a href="PlanetBumi.html">Planet Bumi</a>
+            <a href="PlanetMars.html">Planet Mars</a>
+            <a href="PlanetJupiter.html">Planet Jupiter</a>
+            <a href="PlanetSaturnus.html">Planet Saturnus</a>
+            <a href="PlanetUranus.html">Planet Uranus</a>
+            <a href="PlanetNeptunus.html">Planet Neptunus</a>
+            <a href="PlanetObjekLuar.html">Objek Luar</a>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Planet Merkurius</h1>
+        <div class="section">
+            <p>
+                Merkurius adalah planet terdekat dengan Matahari dan planet terkecil di tata surya kita. Dengan diameter sekitar 4.880 kilometer, 
+                Merkurius memiliki permukaan yang sangat berbatu dan penuh dengan kawah akibat tumbukan meteorit. Meskipun tidak memiliki atmosfer tebal 
+                seperti Bumi, Merkurius tetap memiliki perubahan suhu yang ekstrem, dengan suhu yang sangat panas (hingga 430°C) di siang hari dan sangat 
+                dingin (hingga -180°C) di malam hari. Karena kedekatannya dengan Matahari, Merkurius memiliki peran penting dalam memahami proses-proses 
+                fisik di daerah paling dalam tata surya. Karena tidak ada atmosfer yang signifikan, permukaan Merkurius sangat rentan terhadap radiasi
+                Matahari dan meteor. Selain itu, kecepatan revolusi Merkurius sangat cepat, hanya membutuhkan sekitar 88 hari Bumi untuk mengorbit Matahari sekali.
+            </p>
+            <img src="Gambar/Merkurius1.png" alt="Gambar Planet Merkurius">
+        </div><br>
+        <div class="section">
+            <img src="Gambar/Merkurius2.png" alt="Gambar Permukaan Merkurius">
+            <p>
+                Fakta unik tentang Merkurius adalah bahwa meskipun berada sangat dekat dengan Matahari, planet ini tidak memiliki atmosfer yang cukup tebal
+                untuk menahan panas Matahari. Sebaliknya, permukaan planet ini bisa sangat dingin pada malam hari. Merkurius juga memiliki orbit yang sangat
+                elips, membuat jaraknya dari Matahari bervariasi cukup signifikan selama setiap revolusinya. Selain itu, Merkurius memiliki periode rotasi
+                yang sangat lambat. Satu rotasi Merkurius (satu hari di planet ini) memakan waktu sekitar 59 hari Bumi, sementara satu tahun (satu revolusi
+                Merkurius mengelilingi Matahari) hanya memerlukan 88 hari Bumi. Hal ini berarti satu hari Merkurius lebih lama daripada satu tahun di planet
+                tersebut!
+            </p>
+        </div><br>
+        <p>Untuk informasi lebih lengkap tentang merkurius silahkan kunjungi <a href="https://id.wikipedia.org/wiki/Merkurius">Wikipedia</a></p><br>
+        <div class="section video-section">
+            <video controls>
+                <source src="Video/Merkurius.mp4" type="video/mp4">
+                Browser Anda tidak mendukung tag video.
+            </video>
+        </div>
+    </div>
+    <script>
+        const toggleBtn = document.getElementById('toggleSidebar');
+        const sidebar = document.getElementById('sidebar');
+
+        toggleBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>

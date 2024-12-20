@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Jupiter</title>
+    <link rel="stylesheet" href="konten.css">
+</head>
+<body>
+    <div class="sidebar-container">
+        <button class="toggle-btn" id="toggleSidebar">☰</button>
+        <div class="sidebar" id="sidebar">
+            <h2>Menu</h2>
+            <a href="index.html">Home</a>
+            <a href="Matahari.html">Matahari</a>
+            <a href="PlanetMerkurius.html">Planet Merkurius</a>
+            <a href="PlanetVenus.html">Planet Venus</a>
+            <a href="PlanetBumi.html">Planet Bumi</a>
+            <a href="PlanetMars.html">Planet Mars</a>
+            <a href="PlanetJupiter.html">Planet Jupiter</a>
+            <a href="PlanetSaturnus.html">Planet Saturnus</a>
+            <a href="PlanetUranus.html">Planet Uranus</a>
+            <a href="PlanetNeptunus.html">Planet Neptunus</a>
+            <a href="PlanetObjekLuar.html">Objek Luar</a>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Planet Jupiter</h1>
+        <div class="section">
+            <p>
+                Jupiter adalah planet kelima dari Matahari dan merupakan planet terbesar di tata surya. Dengan diameter sekitar 139.820 kilometer, Jupiter memiliki
+                massa yang lebih besar daripada gabungan semua planet lain di tata surya. Jupiter adalah planet gas raksasa, yang sebagian besar terdiri dari hidrogen
+                (90%) dan helium (10%), dengan atmosfer yang sangat tebal dan penuh dengan badai besar. Salah satu badai paling terkenal adalah Great Red Spot, sebuah
+                badai raksasa yang telah berlangsung selama lebih dari 300 tahun. Jupiter memiliki sistem cincin tipis dan lebih dari 90 satelit alami. Beberapa satelit
+                terbesar Jupiter, yang dikenal sebagai satelit Galilea, adalah Io, Europa, Ganymede, dan Callisto. Ganymede adalah satelit terbesar di tata surya, bahkan
+                lebih besar dari planet Merkurius.
+            </p>
+            <img src="Gambar/Jupiter1.png" alt="Gambar Planet Jupiter">
+        </div><br>
+        <div class="section">
+            <img src="Gambar/Jupiter2.png" alt="Gambar Badai Jupiter">
+            <p>
+                Fakta menarik tentang Jupiter adalah bahwa rotasi planet ini sangat cepat, hanya membutuhkan sekitar 10 jam untuk menyelesaikan satu putaran
+                sehingga menyebabkan planet ini memiliki bentuk yang agak pipih di kutubnya. Jupiter juga memiliki medan magnet yang sangat kuat, 14 kali lebih
+                kuat dari medan magnet Bumi, yang melindungi planet ini dari radiasi kosmik. Penelitian Jupiter terus dilakukan, terutama karena satelit-satelitnya
+                yang unik. Europa, salah satu satelit Galilea, dianggap memiliki lautan air cair di bawah permukaannya yang berpotensi mendukung kehidupan. Misi
+                luar angkasa seperti Juno dan Galileo telah memberikan banyak informasi tentang Jupiter dan sistemnya.
+            </p>
+        </div><br>
+        <p>Untuk informasi lebih lengkap tentang jupiter silahkan kunjungi <a href="https://id.wikipedia.org/wiki/Jupiter">Wikipedia</a></p><br>
+        <div class="section video-section">
+            <video controls>
+                <source src="Video/Jupiter.mp4" type="video/mp4">
+                Browser Anda tidak mendukung tag video.
+            </video>
+        </div>
+    </div>
+    <script>
+        const toggleBtn = document.getElementById('toggleSidebar');
+        const sidebar = document.getElementById('sidebar');
+
+        toggleBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>

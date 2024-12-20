@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Neptunus</title>
+    <link rel="stylesheet" href="konten.css">
+</head>
+<body>
+    <div class="sidebar-container">
+        <button class="toggle-btn" id="toggleSidebar">☰</button>
+        <div class="sidebar" id="sidebar">
+            <h2>Menu</h2>
+            <a href="index.html">Home</a>
+            <a href="Matahari.html">Matahari</a>
+            <a href="PlanetMerkurius.html">Planet Merkurius</a>
+            <a href="PlanetVenus.html">Planet Venus</a>
+            <a href="PlanetBumi.html">Planet Bumi</a>
+            <a href="PlanetMars.html">Planet Mars</a>
+            <a href="PlanetJupiter.html">Planet Jupiter</a>
+            <a href="PlanetSaturnus.html">Planet Saturnus</a>
+            <a href="PlanetUranus.html">Planet Uranus</a>
+            <a href="PlanetNeptunus.html">Planet Neptunus</a>
+            <a href="PlanetObjekLuar.html">Objek Luar</a>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Planet Neptunus</h1>
+
+        <div class="section">
+            <p>
+                Neptunus adalah planet kedelapan dan terjauh dari Matahari dalam tata surya. Dengan diameter sekitar 49.244 kilometer, Neptunus adalah planet
+                terbesar keempat berdasarkan diameter dan ketiga terbesar berdasarkan massa. Planet ini dikenal karena warna birunya yang menawan, disebabkan
+                oleh metana di atmosfer yang menyerap cahaya merah dan memantulkan cahaya biru. Atmosfer Neptunus sebagian besar terdiri dari hidrogen, helium
+                dan metana, serta angin tercepat di tata surya, yang dapat mencapai kecepatan hingga 2.100 kilometer per jam. Suhu rata-rata di Neptunus sangat
+                dingin, mencapai -214°C, meskipun panas internalnya cukup tinggi untuk memancarkan lebih banyak energi daripada yang diterimanya dari Matahari.
+            </p>
+            <img src="Gambar/Neptunus1.jpg" alt="Gambar Planet Neptunus">
+        </div><br>
+        <div class="section">
+            <img src="Gambar/Neptunus2.png" alt="Gambar Atmosfer Neptunus">
+            <p>
+                Fakta menarik tentang Neptunus adalah bahwa planet ini memiliki 14 satelit alami, dengan Triton sebagai yang terbesar.  Triton memiliki
+                orbit retrograde, yang berarti ia mengorbit Neptunus berlawanan arah dengan rotasi planetnya. Hal ini menunjukkan bahwa Triton mungkin
+                adalah objek yang ditangkap oleh gravitasi Neptunus di masa lalu. Neptunus juga memiliki sistem cincin yang tipis dan gelap, yang terdiri
+                dari partikel-partikel kecil yang sulit diamati. Misi Voyager 2 pada tahun 1989 adalah satu-satunya misi yang pernah mengunjungi Neptunus,
+                memberikan data berharga tentang planet ini, termasuk keberadaan Bintik Gelap Besar, badai besar yang mirip dengan Bintik Merah Besar di Jupiter.
+            </p>
+        </div><br>
+        <div class="section video-section">
+            <video controls>
+                <source src="Video/Neptunus_Venus.mp4" type="video/mp4">
+                Browser Anda tidak mendukung tag video.
+            </video>
+        </div>
+    </div>
+    <script>
+        const toggleBtn = document.getElementById('toggleSidebar');
+        const sidebar = document.getElementById('sidebar');
+
+        toggleBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matahari</title>
+    <link rel="stylesheet" href="konten.css">
+</head>
+<body>
+    <div class="sidebar-container">
+        <button class="toggle-btn" id="toggleSidebar">☰</button>
+        <div class="sidebar" id="sidebar">
+            <h2>Menu</h2>
+            <a href="index.html">Home</a>
+            <a href="Matahari.html">Matahari</a>
+            <a href="PlanetMerkurius.html">Planet Merkurius</a>
+            <a href="PlanetVenus.html">Planet Venus</a>
+            <a href="PlanetBumi.html">Planet Bumi</a>
+            <a href="PlanetMars.html">Planet Mars</a>
+            <a href="PlanetJupiter.html">Planet Jupiter</a>
+            <a href="PlanetSaturnus.html">Planet Saturnus</a>
+            <a href="PlanetUranus.html">Planet Uranus</a>
+            <a href="PlanetNeptunus.html">Planet Neptunus</a>
+            <a href="PlanetObjekLuar.html">Objek Luar</a>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Matahari</h1>
+        <div class="section">
+            <p>
+                Matahari adalah bintang di pusat tata surya kita. Sebagai sumber energi utama, matahari memiliki diameter sekitar 
+                1.392.700 kilometer dan terdiri terutama dari gas hidrogen dan helium. Melalui reaksi nuklir, matahari menghasilkan 
+                energi yang menjadi sumber kehidupan di Bumi. Fungsi utama matahari adalah memberikan cahaya dan panas yang mendukung
+                fotosintesis pada tumbuhan, mengatur iklim, dan menjaga siklus air di Bumi. Tanpa matahari, kehidupan seperti yang
+                kita kenal tidak akan ada. Tugas matahari dalam tata surya juga sangat penting. Gravitasi matahari menjaga planet-planet
+                agar tetap berada pada orbitnya. Selain itu, aktivitas matahari seperti angin matahari memengaruhi medan magnetik Bumi yang
+                disebut magnetosfer.
+            </p>
+            <img src="Gambar\matahari1.jpg" alt="Gambar Matahari">
+        </div><br>
+        <div class="section">
+            <img src="Gambar\matahari2.png" alt="Gambar Inti Matahari">
+            <p>
+                Fakta unik tentang matahari adalah bahwa meskipun suhu di permukaan matahari mencapai sekitar 5.500°C, suhu inti 
+                matahari jauh lebih tinggi, mencapai 15 juta derajat Celsius. Selain itu, matahari memiliki siklus aktivitas 
+                selama 11 tahun yang memengaruhi jumlah bintik matahari dan intensitas radiasi. Matahari juga memiliki umur. Saat
+                ini, matahari diperkirakan berusia sekitar 4,6 miliar tahun dan berada di pertengahan hidupnya. Ketika bahan bakar
+                hidrogen habis, matahari akan menjadi bintang raksasa merah sebelum akhirnya berubah menjadi katai putih. Selain itu
+                matahari adalah salah satu dari lebih dari 100 miliar bintang di galaksi Bima Sakti. Meskipun terlihat besar dan terang
+                dari Bumi, sebenarnya matahari termasuk bintang dengan ukuran rata-rata dibandingkan bintang-bintang lainnya di alam semesta.
+            </p>
+        </div><br>
+        <p>Untuk informasi lebih lengkap tentang matahari silahkan kunjungi <a href="https://id.wikipedia.org/wiki/Matahari">Wikipedia</a></p><br>
+        <div class="section video-section">
+            <video controls>
+                <source src="Video\Matahari.mp4" type="video/mp4">
+                Browser Anda tidak mendukung tag video.
+            </video>
+        </div>
+    </div>
+    <script>
+        const toggleBtn = document.getElementById('toggleSidebar');
+        const sidebar = document.getElementById('sidebar');
+
+        toggleBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>

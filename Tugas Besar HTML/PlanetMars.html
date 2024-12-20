@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Mars</title>
+    <link rel="stylesheet" href="konten.css">
+</head>
+<body>
+    <div class="sidebar-container">
+        <button class="toggle-btn" id="toggleSidebar">☰</button>
+        <div class="sidebar" id="sidebar">
+            <h2>Menu</h2>
+            <a href="index.html">Home</a>
+            <a href="Matahari.html">Matahari</a>
+            <a href="PlanetMerkurius.html">Planet Merkurius</a>
+            <a href="PlanetVenus.html">Planet Venus</a>
+            <a href="PlanetBumi.html">Planet Bumi</a>
+            <a href="PlanetMars.html">Planet Mars</a>
+            <a href="PlanetJupiter.html">Planet Jupiter</a>
+            <a href="PlanetSaturnus.html">Planet Saturnus</a>
+            <a href="PlanetUranus.html">Planet Uranus</a>
+            <a href="PlanetNeptunus.html">Planet Neptunus</a>
+            <a href="PlanetObjekLuar.html">Objek Luar</a>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Planet Mars</h1>
+        <div class="section">
+            <p>
+                Mars adalah planet keempat dari Matahari dan dikenal sebagai "Planet Merah" karena warna kemerahannya yang dihasilkan oleh oksida besi di
+                permukaannya. Dengan diameter sekitar 6.779 kilometer, Mars memiliki ukuran setengah dari Bumi. Mars memiliki atmosfer yang sangat tipis, sebagian
+                besar terdiri dari karbon dioksida (95%), dengan sedikit nitrogen dan argon. Karena atmosfernya yang tipis, Mars tidak dapat menahan panas, sehingga
+                suhu permukaannya bisa sangat dingin, rata-rata sekitar -60°C. Mars memiliki dua satelit alami kecil, yaitu Phobos dan Deimos, yang berbentuk tidak
+                teratur dan kemungkinan merupakan asteroid yang tertangkap oleh gravitasi Mars. Permukaan Mars dipenuhi dengan kawah, lembah, dan gunung berapi besar
+                termasuk Olympus Mons, gunung berapi terbesar di tata surya, yang tingginya mencapai 21 kilometer.
+            </p>
+            <img src="Gambar/mars1.png" alt="Gambar Planet Mars">
+        </div><br>
+        <div class="section">
+            <img src="Gambar/mars2.png" alt="Gambar Permukaan Mars">
+            <p>
+                Fakta menarik tentang Mars adalah keberadaan Valles Marineris, sebuah lembah yang panjangnya mencapai 4.000 kilometer dan kedalamannya hingga
+                7 kilometer, jauh lebih besar daripada Grand Canyon di Bumi. Mars juga memiliki kemungkinan terdapat air dalam bentuk es di kutubnya dan bahkan
+                mungkin di bawah permukaan tanah. Penelitian terhadap Mars terus dilakukan karena planet ini dianggap sebagai kandidat yang memungkinkan untuk
+                kolonisasi manusia di masa depan. Beberapa misi luar angkasa, seperti Mars rovers, telah mengumpulkan data untuk mempelajari lingkungan dan
+                mencari tanda-tanda kehidupan mikroba di masa lalu.
+            </p>
+        </div><br>
+        <p>Untuk informasi lebih lengkap tentang mars silahkan kunjungi <a href="https://id.wikipedia.org/wiki/Mars">Wikipedia</a></p><br>
+        <div class="section video-section">
+            <video controls>
+                <source src="Video/Mars_Uranus.mp4" type="video/mp4">
+                Browser Anda tidak mendukung tag video.
+            </video>
+        </div>
+    </div>
+    <script>
+        const toggleBtn = document.getElementById('toggleSidebar');
+        const sidebar = document.getElementById('sidebar');
+
+        toggleBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>

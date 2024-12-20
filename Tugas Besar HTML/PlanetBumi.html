@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Bumi</title>
+    <link rel="stylesheet" href="konten.css">
+</head>
+<body>
+    <div class="sidebar-container">
+        <button class="toggle-btn" id="toggleSidebar">☰</button>
+        <div class="sidebar" id="sidebar">
+            <h2>Menu</h2>
+            <a href="index.html">Home</a>
+            <a href="Matahari.html">Matahari</a>
+            <a href="PlanetMerkurius.html">Planet Merkurius</a>
+            <a href="PlanetVenus.html">Planet Venus</a>
+            <a href="PlanetBumi.html">Planet Bumi</a>
+            <a href="PlanetMars.html">Planet Mars</a>
+            <a href="PlanetJupiter.html">Planet Jupiter</a>
+            <a href="PlanetSaturnus.html">Planet Saturnus</a>
+            <a href="PlanetUranus.html">Planet Uranus</a>
+            <a href="PlanetNeptunus.html">Planet Neptunus</a>
+            <a href="PlanetObjekLuar.html">Objek Luar</a>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Planet Bumi</h1>
+        <div class="section">
+            <p>
+                Bumi adalah planet ketiga dari Matahari dan satu-satunya planet yang diketahui mendukung kehidupan. Dengan diameter sekitar 12.742 kilometer, 
+                Bumi adalah planet terbesar kelima di tata surya. Bumi memiliki atmosfer yang terdiri dari nitrogen (78%), oksigen (21%), dan gas-gas lainnya 
+                yang menjaga suhu permukaan tetap stabil, melindungi dari radiasi berbahaya, dan memungkinkan makhluk hidup untuk bernapas. Bumi memiliki
+                permukaan yang beragam, termasuk daratan, lautan, gunung, gurun, dan hutan. Sekitar 71% permukaan Bumi ditutupi oleh air, sebagian besar berupa
+                lautan. Hal inilah yang membuat Bumi sering disebut sebagai "Planet Biru". Gravitasi Bumi, yang dihasilkan oleh massanya, menjaga atmosfer tetap
+                utuh dan mengatur orbit Bulan, satelit alami Bumi.
+            </p>
+            <img src="Gambar/Bumi1.jpg" alt="Gambar Planet Bumi">
+        </div><br>
+        <div class="section">
+            <img src="Gambar/Bumi2.jpg" alt="Gambar Permukaan Bumi">
+            <p>
+                Fakta menarik tentang Bumi adalah bahwa planet ini memiliki medan magnet yang dihasilkan oleh inti logam cairnya. Medan magnet ini, yang dikenal
+                sebagai magnetosfer, melindungi Bumi dari angin matahari yang berbahaya. Selain itu, rotasi Bumi menyebabkan fenomena siang dan malam, sementara
+                kemiringan sumbunya menghasilkan pergantian musim sepanjang tahun. Bumi juga memiliki ekosistem yang sangat kompleks dan beragam, mulai dari
+                mikroorganisme kecil hingga mamalia besar. Siklus air, siklus karbon, dan berbagai proses biologis lainnya mendukung keseimbangan lingkungan yang
+                memungkinkan kehidupan terus berkembang.
+            </p>
+        </div><br>
+        <p>Untuk informasi lebih lengkap tentang bumi silahkan kunjungi <a href="https://id.wikipedia.org/wiki/Bumi">Wikipedia</a></p><br>
+        <div class="section video-section">
+            <video controls>
+                <source src="Video/Bumi.mp4" type="video/mp4">
+                Browser Anda tidak mendukung tag video.
+            </video>
+        </div>
+    </div>
+    <script>
+        const toggleBtn = document.getElementById('toggleSidebar');
+        const sidebar = document.getElementById('sidebar');
+
+        toggleBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>

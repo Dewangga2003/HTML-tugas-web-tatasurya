@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Uranus</title>
+    <link rel="stylesheet" href="konten.css">
+</head>
+<body>
+    <div class="sidebar-container">
+        <button class="toggle-btn" id="toggleSidebar">☰</button>
+        <div class="sidebar" id="sidebar">
+            <h2>Menu</h2>
+            <a href="index.html">Home</a>
+            <a href="Matahari.html">Matahari</a>
+            <a href="PlanetMerkurius.html">Planet Merkurius</a>
+            <a href="PlanetVenus.html">Planet Venus</a>
+            <a href="PlanetBumi.html">Planet Bumi</a>
+            <a href="PlanetMars.html">Planet Mars</a>
+            <a href="PlanetJupiter.html">Planet Jupiter</a>
+            <a href="PlanetSaturnus.html">Planet Saturnus</a>
+            <a href="PlanetUranus.html">Planet Uranus</a>
+            <a href="PlanetNeptunus.html">Planet Neptunus</a>
+            <a href="PlanetObjekLuar.html">Objek Luar</a>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Planet Uranus</h1>
+
+        <div class="section">
+            <p>
+                Uranus adalah planet ketujuh dari Matahari dan merupakan salah satu dari planet gas raksasa di tata surya. Uranus memiliki diameter sekitar
+                50.724 kilometer, menjadikannya planet terbesar ketiga setelah Jupiter dan Saturnus. Planet ini unik karena rotasinya hampir tegak lurus terhadap
+                orbitnya, dengan kemiringan sumbu sekitar 98 derajat, sehingga tampak "berbaring" saat mengelilingi Matahari. Uranus juga memiliki warna biru
+                kehijauan yang khas, yang disebabkan oleh metana di atmosfernya yang menyerap cahaya merah. Uranus memiliki atmosfer yang sebagian besar terdiri
+                dari hidrogen, helium, dan metana, dengan suhu yang sangat dingin, mencapai -224°C, menjadikannya planet terdingin di tata surya. Planet ini memiliki
+                13 cincin samar dan 27 satelit alami, termasuk Titania dan Oberon, dua satelit terbesar.
+            </p>
+            <img src="Gambar/uranus1.png" alt="Gambar Planet Uranus">
+        </div><br>
+        <div class="section">
+            <img src="Gambar/uranus2.jpg" alt="Gambar Orbit Uranus">
+            <p>
+                Fakta menarik tentang Uranus adalah bahwa atmosfernya mengandung lapisan es seperti air, amonia, dan metana, sehingga sering disebut sebagai
+                "planet es raksasa." Uranus juga memiliki angin kencang yang dapat mencapai kecepatan 900 kilometer per jam. Karena rotasi yang sangat miring
+                Uranus mengalami musim yang ekstrem, dengan setiap musim berlangsung sekitar 21 tahun. Meskipun Uranus belum dieksplorasi secara mendalam, misi
+                Voyager 2 pada tahun 1986 memberikan informasi penting tentang planet ini. Penelitian lebih lanjut diperlukan untuk memahami struktur dalam dan
+                fenomena atmosfer Uranus.
+            </p>
+        </div><br>
+        <p>Untuk informasi lebih lengkap tentang merkurius silahkan kunjungi <a href="https://id.wikipedia.org/wiki/Uranus">Wikipedia</a></p><br>
+        <div class="section video-section">
+            <video controls>
+                <source src="Video/Mars_Uranus.mp4" type="video/mp4">
+                Browser Anda tidak mendukung tag video.
+            </video>
+        </div>
+    </div>
+    <script>
+        const toggleBtn = document.getElementById('toggleSidebar');
+        const sidebar = document.getElementById('sidebar');
+
+        toggleBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>
